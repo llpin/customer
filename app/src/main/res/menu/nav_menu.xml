@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_scane"
+            android:icon="@drawable/nav_scane"
+            android:title="扫码验真" />
+        <item
+            android:id="@+id/nav_note"
+            android:icon="@drawable/nav_note"
+            android:title="小票列表" />
+        <item
+            android:id="@+id/nav_protocol"
+            android:icon="@drawable/nav_protocol"
+            android:title="电子协议" />
+        <item
+            android:id="@+id/nav_complaint"
+            android:icon="@drawable/nav_complaint"
+            android:title="商品投诉" />
+        <item
+            android:id="@+id/nav_introduction"
+            android:icon="@drawable/nav_task"
+            android:title="厂商介绍" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/nav_setting"
+            android:title="系统设置" />
+    </group>
+</menu>
